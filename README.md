@@ -1,24 +1,24 @@
-= Open Code of Conduct
+# Open Code of Conduct
 
 An easy to reuse open source code of conduct for communities
 
-Developed by the @TODOGroup to promote code of conducts for open source communities. 
+Developed by the [@TODOGroup](https://twitter.com/todogroup) to promote code of conducts for open source communities.
 
-== FAQ
+## FAQ
 
-*Q: What license is this code of conduct under?"
+#### What license is this code of conduct under?
 
-A: A very liberal CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
+A very liberal CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
 
-*Q: What companies support or use the open code of conduct?*
+#### What companies support or use the open code of conduct?
 
-A: Twitter, Square and more.
+Twitter, Square and more.
 
-*Q: Can I apply this code of conduct for conferences or events?*
+#### Can I apply this code of conduct for conferences or events?*
 
-A: It wasn't inteded for htat purpose, but we highly recommend you look at http://confcodeofconduct.com/
+It wasn't inteded for htat purpose, but we highly recommend you look at http://confcodeofconduct.com/
 
-== Thanks
+## Thanks
 
 We all stand on the shoulders of open source giants. 
 
