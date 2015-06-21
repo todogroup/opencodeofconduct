@@ -6,6 +6,12 @@ Developed by the [@TODOGroup](https://twitter.com/todogroup) to promote code of 
 
 ## FAQ
 
+#### Why a code of conduct?
+
+We strongly believe that code of conducts help set the ground rules for participation in communities and more importantly, help build a culture of respect and improve diversity. According to the latest [FLOSS survey](http://floss2013.libresoft.es/results.en.html), we have lots of work to do in improving diversity across open source communities.
+
+Furthermore, diversity is the spice of life. Having a diverse contributor community from different backgrounds and organizations will help set your community up for long term success. Also, the [research](http://www.scientificamerican.com/article/how-diversity-makes-us-smarter/) shows that diverse communities are more creative, diligent and innovative.
+
 #### What license is this code of conduct under?
 
 A very liberal CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
@@ -29,6 +35,12 @@ Also, Ashe Dryden has some great information on the topic: http://www.ashedryden
 #### Can I use something simpler? What about the Contributor Covenant?
 
 The [contributor convenant](http://www.ashedryden.com/blog/codes-of-conduct-101-faq) is a great option and we recommend you take a look at it. However, we had a need to make a customizable by default code of conduct in template form, geared towards companies who run larger open source projects.
+
+#### Can I contribute and improve this code of conduct?
+
+Contributions are welcome on how to improve the open code of conduct!
+
+Please send us a pull request with your suggestions.
 
 ## Thanks
 
