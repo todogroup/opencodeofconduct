@@ -1,6 +1,6 @@
 # Open Code of Conduct
 
-An easy to reuse open source code of conduct *template* for communities.
+An easy to reuse open source code of conduct **template** for communities.
 
 Developed by the [@TODOGroup](https://twitter.com/todogroup) to promote code of conducts for open source communities.
 
