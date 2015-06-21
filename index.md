@@ -6,7 +6,7 @@ _The purpose of creating this effort was to promote more open source organizatio
 
 ### Code of Conduct
 
-This code of conduct outlines our expectations for participants within the [COMMUNITY], as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored.
+This code of conduct outlines our expectations for participants within the **[COMMUNITY]**, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored.
 
 Our open source community strives to:
 
