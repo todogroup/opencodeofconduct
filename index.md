@@ -4,7 +4,7 @@ layout: default
 
 The purpose of creating this effort was to promote more open source organizations and projects to adopt code of conducts. Through our experiences at the [@TODOGroup](https://twitter.com/todogroup), we strongly believe that code of conducts help set the ground rules for participation in communities and more importantly, help build a culture of respect. We hope by [sharing this with you](https://github.com/opencodeofconduct/opencodeofconduct.github.io) will enable you to easily establish a code of conduct for your respective open source community. The following is a code of conduct template. To generate your own code of conduct, change the values of COMMUNITY, CONTACT from their original values as given here, and substitute your own._
 
-### Code of Conduct
+### Open Code of Conduct v1.0
 
 Our open source community is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form.
 
