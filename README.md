@@ -44,10 +44,11 @@ Please send us a pull request with your suggestions.
 
 ## Thanks
 
-We all stand on the shoulders of giants across many open source communities. 
+We all stand on the shoulders of giants across many open source communities.
 
 We'd like to thank the communities and projects that established code of conducts and diversity statements as our inspiration:
 * Django: https://www.djangoproject.com/conduct/reporting/
 * Python: https://www.python.org/community/diversity/
 * Ubuntu: http://www.ubuntu.com/about/about-ubuntu/conduct
 * Contributor Covenant: http://contributor-covenant.org/
+* Geek Feminism: http://geekfeminism.org/about/code-of-conduct/
