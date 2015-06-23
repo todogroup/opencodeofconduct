@@ -27,4 +27,4 @@ Please do not reach out to the Anti-Abuse Team via their private email addresses
 
 ### CONFIDENTIALITY:
 
-We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we’ve received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of our community memvers members or the general public. We will not name harassment victims without their affirmative consent.
+We will respect confidentiality requests for the purpose of protecting victims of abuse. At our discretion, we may publicly name a person about whom we’ve received harassment complaints, or privately warn third parties about them, if we believe that doing so will increase the safety of our community members or the general public. We will not name harassment victims without their affirmative consent.
