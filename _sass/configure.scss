@@ -1,0 +1,21 @@
+
+#configure {
+  & > * { display: none; }
+
+  &.unconfigured {
+    .show-when-unconfigured { display: block; }
+  }
+
+  &.configuring {
+    .show-when-configuring { display: block; }
+  }
+
+  &.configured {
+    .show-when-configured { display: block; }
+  }
+}
+
+#snippet {
+  width: 100%;
+  font-family: monospace;
+}
