@@ -10,6 +10,12 @@ class @Configure
     @form.addEventListener "submit", @submit
     @element.querySelector("a[href='#configure']").addEventListener "click", @start
 
+    if data = @decode(window.location.hash.substr(1))
+      @template.configure(data)
+
+      # Fill out configuration form with values so it can be edited
+      @form.elements.namedItem(key)?.value = value for key,value of data
+
   start: (event) =>
     event.preventDefault()
     @element.classList.add("configuring")
@@ -45,7 +51,8 @@ class @Configure
     btoa(escaped)
 
   decode: (string) ->
-    JSON.parse(atob(string))
+    try
+      JSON.parse(atob(string))
 
 class Template
   constructor: (@element) ->
