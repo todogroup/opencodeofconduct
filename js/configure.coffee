@@ -15,6 +15,7 @@ class @Configure
 
       # Fill out configuration form with values so it can be edited
       @form.elements.namedItem(key)?.value = value for key,value of data
+      @element.classList.remove("unconfigured")
 
   start: (event) =>
     event.preventDefault()
