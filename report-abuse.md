@@ -5,24 +5,24 @@ layout: default
 ### Report Abuse
 Our open source community is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of participants in any form.
 
-Please review our Code of Conduct for our definition of harassment.
+Please review our [Code of Conduct ](/code-of-conduct.html) for our definition of harassment.
 
 ##### ANTI-ABUSE TEAM:
 
 The current Anti-Abuse Team is:
 
-- **Team members name**
-- **Team members name**
+- **Team member name**
+- **Team member name**
 
-The Anti-Abuse team email address is **[an email address]**
+The Anti-Abuse team email address is **[ABUSE EMAIL ADDRESS]**
 
 ### REPORTING:
 
-If you are being harassed by a member of our open source community, notice that someone else is being harassed, or have any other concerns, please contact the Anti-Abuse Team at **[An email address]**.
+If you are being harassed by a member of our open source community, notice that someone else is being harassed, or have any other concerns, please contact the Anti-Abuse Team at **[ABUSE EMAIL ADDRESS]**.
 
 If the person who is harassing you is on the team, they will recuse themselves from handling your incident. We will respond as promptly as we can.
 
-Please do not reach out to the Anti-Abuse Team via their private email addresses or social media accounts. If your report does not come through  **[An email address]**, we cannot guarantee that it will be seen and addressed.
+Please do not reach out to the Anti-Abuse Team via their private email addresses or social media accounts. If your report does not come through **[ABUSE EMAIL ADDRESS]**, we cannot guarantee that it will be seen and addressed.
 
 
 ### CONFIDENTIALITY:
