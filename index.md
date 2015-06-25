@@ -2,7 +2,7 @@
 layout: code-of-conduct
 ---
 
-### Open Code of Conduct v1.0
+## Open Code of Conduct v1.0
 
 This code of conduct outlines our expectations for participants within the **[COMMUNITY]** community, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored.
 
