@@ -62,7 +62,7 @@ class @Configure
 
   # Encode the configuration data
   encode: (data) ->
-    (encodeURIComponent(data[key]) for key in @constructor.variables).join("/")
+    (data[key] for key in @constructor.variables).join("/")
 
   # Decode the configuration data
   decode: (string) ->
