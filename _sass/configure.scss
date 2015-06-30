@@ -1,22 +1,85 @@
+.unconfigured .show-when-configured {
+  opacity: 0.5;
+}
 
 #configure {
-  & > * { display: none; }
+  background-color: #444;
+  color: #ccc;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 1em 0;
+  margin: 2em 0;
 
-  &.unconfigured {
-    .show-when-unconfigured { display: block; }
+  .configured & {
+    display: none;
   }
 
-  &.configuring {
-    .show-when-configuring { display: block; }
+  ul {
+    overflow: hidden;
+    margin-top: 0;
   }
 
-  &.configured {
-    .show-when-configured { display: block; }
+  ul li {
+    float: left;
+    width: 50%;
+  }
+
+  ol {
+    counter-reset: configure-counter;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+    & > li {
+      position: relative;
+      list-style: none;
+      padding-left: 48px;
+      margin: 2em 0;
+
+
+      h2 {
+        line-height: 36px;
+        margin-bottom: 0;
+        color: #fff;
+      }
+
+      &:before {
+        display: inline-block;
+        float: left;
+        position: absolute;
+        left: 0;
+        // top: 0;
+        width: 36px;
+        line-height: 36px;
+        font-size: 24px;
+        font-weight: bold;
+        border-radius: 36px;
+
+        text-align: center;
+        color: rgba(0,0,0,0.25);
+        color: #fff;
+        background: #A1D33C;
+
+        // Create a custom counter
+        content: counter(configure-counter);
+        counter-increment: configure-counter;
+      }
+    }
+  }
+}
+
+#apply {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+
+  .configuring & {
+    opacity: 1;
   }
 }
 
 #snippet {
   width: 100%;
-  font-family: monospace;
-  height: 6em;
+  max-width: none;
+  font-size: 0.8em;
+  height: 8em;
 }

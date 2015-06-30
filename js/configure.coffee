@@ -8,26 +8,27 @@ class @Configure
     @snippet = @element.querySelector("#snippet")
 
     @form.addEventListener "submit", @submit
-    @element.querySelector("a[href='#configure']").addEventListener "click", @start
+
+    for input in @form.querySelectorAll("input")
+      input.addEventListener "keypress", @check
 
     if data = @decode(window.location.hash.substr(1))
       @template.configure(data)
 
       # Fill out configuration form with values so it can be edited
       @form.elements.namedItem(key)?.value = value for key,value of data
-      @element.classList.remove("unconfigured")
+      document.body.classList.add("configured")
 
-  start: (event) =>
-    event.preventDefault()
-    @element.classList.add("configuring")
-    @element.classList.remove("unconfigured")
-    @element.classList.remove("configured")
+  check: =>
+    clearTimeout(@timeout) if @timeout
+    @timeout = setTimeout(@submit, 250)
 
   submit: (event) =>
-    event.preventDefault()
+    return unless @form.checkValidity()
+    event?.preventDefault()
+
     @setup @data()
-    @element.classList.remove("configuring")
-    @element.classList.add("configured")
+    document.body.classList.add("configuring")
 
   # Return the form data as an object
   data: ->
@@ -43,6 +44,7 @@ class @Configure
     snippet = @element.querySelector("#markdown-template").innerText.trim()
     snippet = snippet.replace("[URL]", window.location)
     @snippet.value = snippet
+    @snippet.setAttribute("disabled", false)
 
   encode: (data) ->
     # Base64 encode the data, escaping non-ascii characters.

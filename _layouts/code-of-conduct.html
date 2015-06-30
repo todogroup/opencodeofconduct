@@ -2,38 +2,51 @@
 layout: default
 ---
 
+</div> <!-- .container -->
+
 <div id="configure" class="unconfigured">
-  <p id="intro" class="show-when-unconfigured">Through our experiences at the <a href="http://todogroup.org">TODO Group</a>, we strongly believe that a code of conduct helps set the ground rules for participation in communities and helps build a culture of respect. We hope <a href="https://github.com/todogroup/opencodeofconduct">sharing this with you</a> will enable you to easily establish a code of conduct for your respective open source community. The following is a code of conduct template. To generate your own code of conduct, change the values of COMMUNITY, CONTACT from their original values as given here, and substitute your own.</p>
+  <div class="container">
+  <div>
+    <p>Through our experiences at the <a href="http://todogroup.org">TODO Group</a>, we strongly believe that a code of conduct helps set the ground rules for participation in communities and helps build a culture of respect. We hope <a href="https://github.com/todogroup/opencodeofconduct">sharing this with you</a> will enable you to easily establish a code of conduct for your respective open source community.</p>
 
-  <a href="#configure" class="show-when-unconfigured">Configure</a>
+    <ol>
+      <li>
+        <h2>Configure the Code of Conduct:</h2>
+        <form>
+          <ul>
+            <li>
+              <label>What is the name of your community?</label>
+              <div><input type="text" name="community" placeholder="TODO Group" required></div>
+            </li>
 
-  <form class="show-when-configuring">
-    <p>
-      <label>Name of community:</label>
-      <input type="text" name="community">
-    </p>
+            <li>
+              <label>Where should abuses be reported to?</label>
+              <div><input type="email" name="contact" placeholder="abuse@todogroup.org" required></div>
+            </li>
+          </ul>
+        </form>
+      </li>
+      <li id="apply" class="show-when-configured">
+        <h2>Apply it to your community:</h2>
 
-    <p>
-      <label>Email address to report abuses to:</label>
-      <input type="email" name="contact">
-    </p>
+        <p>Copy and paste this template into the <code>README</code> or <code>CONTRIBUTING</code> file of your project.</p>
 
-    <button>Configure</button>
-  </form>
+        <textarea id="snippet" disabled></textarea>
 
-
-  <div id="apply" class="show-when-configured">
-    <p>Copy and paste this template into the <code>README</code> or <code>CONTRIBUTING</code> file of your project.</p>
-
-    <textarea id="snippet"></textarea>
-
-    <div id="code"></div>
+        <div id="code"></div>
+      </li>
+    </ol>
   </div>
 
   <script id="markdown-template" type="text/plain">
-    This project adheres to the [Open Code of Conduct]([URL]). By participating, you are expected to uphold this code.
+This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to uphold this code.
+[code-of-conduct]: [URL]
   </script>
+
+  </div> <!-- .container -->
 </div>
+
+<div class="container">
 
 <div id="code-of-conduct">
   {{ content }}
