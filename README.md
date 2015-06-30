@@ -51,3 +51,4 @@ We'd like to thank the communities and projects that established code of conduct
 * Python: https://www.python.org/community/diversity/
 * Ubuntu: http://www.ubuntu.com/about/about-ubuntu/conduct
 * Contributor Covenant: http://contributor-covenant.org/
+* Geek Feminism: http://geekfeminism.org/about/code-of-conduct/

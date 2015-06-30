@@ -6,7 +6,7 @@ layout: default
 
 ## Open Code of Conduct v1.0
 
-This code of conduct outlines our expectations for participants within the **[COMMUNITY]**, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored.
+This code of conduct outlines our expectations for participants within the **[COMMUNITY]**, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored. Anyone who violates this code of conduct may be banned from the community.
 
 Our open source community strives to:
 
@@ -43,6 +43,7 @@ If you experience or witness unacceptable behaviorâ€”or have any other concernsâ
 include them as well. Your account of what occurred, and if you believe the incident is ongoing. If there is a publicly available record (e.g. a mailing list archive or a public IRC logger), please include a link.
 - Any additional information that may be helpful.
 
-After filing a report, a representative will contact you personally. The representative will then review the incident, follow up with any additional questions, and make a decision as to how to respond.
+After filing a report, a representative will contact you personally. If the person who is harassing you is part of the response team, they will recuse themselves from handling your incident. A representative will then review the incident, follow up with any additional questions, and make a decision as to how to respond. We will respect confidentiality requests for the purpose of protecting victims of abuse.
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately. If an individual engages in unacceptable behavior, the representative may take any action they deem appropriate, up to and including a permanent ban from our community without warning.
+
