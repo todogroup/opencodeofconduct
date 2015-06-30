@@ -10,10 +10,15 @@ class @Configure
     @form = @element.querySelector("form")
     @snippet = @element.querySelector("#snippet")
 
+    # Copy the snippet text on focus
+    @snippet.addEventListener "focus", @copy
+    # Prevent mouseup from unselecting the text
+    @snippet.addEventListener "mouseup", (e) -> e.preventDefault()
+
     # Listen to form events to update the snippet
     @form.addEventListener "submit", @submit
     for input in @form.querySelectorAll("input")
-      input.addEventListener "keypress", @keypress
+      input.addEventListener "keyup", @keypress
 
     # If the URL has config variables, update the tempalate
     if data = @decode(window.location.hash.substr(1))
@@ -53,7 +58,7 @@ class @Configure
     snippet = @element.querySelector("#markdown-template").innerText.trim()
     snippet = snippet.replace("[URL]", window.location)
     @snippet.value = snippet
-    @snippet.setAttribute("disabled", false)
+    @snippet.disabled = false
 
   # Encode the configuration data
   encode: (data) ->
@@ -66,6 +71,10 @@ class @Configure
     data = {}
     data[key] = values[index] for key,index in @constructor.variables
     data
+
+  copy: (event) =>
+    event.target.select()
+    document.execCommand('copy')
 
 class Template
   constructor: (@element) ->
