@@ -7,11 +7,12 @@ class @Configure
     @form = @element.querySelector("form")
     @snippet = @element.querySelector("#snippet")
 
+    # Listen to form events to update the snippet
     @form.addEventListener "submit", @submit
-
     for input in @form.querySelectorAll("input")
-      input.addEventListener "keypress", @check
+      input.addEventListener "keypress", @keypress
 
+    # If the URL has config variables, update the tempalate
     if data = @decode(window.location.hash.substr(1))
       @template.configure(data)
 
@@ -19,15 +20,19 @@ class @Configure
       @form.elements.namedItem(key)?.value = value for key,value of data
       document.body.classList.add("configured")
 
-  check: =>
-    clearTimeout(@timeout) if @timeout
-    @timeout = setTimeout(@submit, 250)
+  # Handle the keypress event with a throttle
+  keypress: =>
+    clearTimeout(@throttle) if @throttle
+    @throttle = setTimeout(@submit, 250)
 
+  # Handle the form submission event
   submit: (event) =>
-    return unless @form.checkValidity()
     event?.preventDefault()
 
-    @setup @data()
+    # Bail if the form is not valid
+    return unless @form.checkValidity()
+
+    @update @data()
     document.body.classList.add("configuring")
 
   # Return the form data as an object
@@ -37,7 +42,8 @@ class @Configure
       data[element.name] = element.value if element.value.length
     data
 
-  setup: (data) ->
+  # Update the snippet and template
+  update: (data) ->
     @template.configure(data)
     window.location.hash = @encode(data)
 
@@ -46,6 +52,7 @@ class @Configure
     @snippet.value = snippet
     @snippet.setAttribute("disabled", false)
 
+  # Encode the configuration data
   encode: (data) ->
     # Base64 encode the data, escaping non-ascii characters.
     # https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding#The_.22Unicode_Problem.22
@@ -53,6 +60,7 @@ class @Configure
     escaped = str.replace /%([0-9A-F]{2})/g, (match, p1) -> String.fromCharCode('0x' + p1)
     btoa(escaped)
 
+  # Decode the configuration data
   decode: (string) ->
     try
       JSON.parse(atob(string))
