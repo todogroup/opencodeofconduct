@@ -61,6 +61,7 @@ class @Configure
 
   # Decode the configuration data
   decode: (string) ->
+    return if string == ""
     values = string.split("/")
     data = {}
     data[key] = values[index] for key,index in @constructor.variables
