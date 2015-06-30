@@ -3,6 +3,9 @@
 ---
 
 class @Configure
+  # Variables that get encoded in the URL and substituted in the template
+  @variables: ["community", "contact"]
+
   constructor: (@template, @element) ->
     @form = @element.querySelector("form")
     @snippet = @element.querySelector("#snippet")
@@ -54,16 +57,14 @@ class @Configure
 
   # Encode the configuration data
   encode: (data) ->
-    # Base64 encode the data, escaping non-ascii characters.
-    # https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding#The_.22Unicode_Problem.22
-    str = encodeURIComponent(JSON.stringify(data))
-    escaped = str.replace /%([0-9A-F]{2})/g, (match, p1) -> String.fromCharCode('0x' + p1)
-    btoa(escaped)
+    (encodeURIComponent(data[key]) for key in @constructor.variables).join("/")
 
   # Decode the configuration data
   decode: (string) ->
-    try
-      JSON.parse(atob(string))
+    values = string.split("/")
+    data = {}
+    data[key] = values[index] for key,index in @constructor.variables
+    data
 
 class Template
   constructor: (@element) ->
