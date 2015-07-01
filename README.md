@@ -42,7 +42,7 @@ Contributions are welcome on how to improve the open code of conduct!
 
 Please send us a pull request with your suggestions.
 
-### Doesn't this impact the right to free speech? Why are you stomping on my rights?
+#### Doesn't this impact the right to free speech? Why are you stomping on my rights?
 
 See this XKCD for our feelings on this matter: https://xkcd.com/1357/
 
