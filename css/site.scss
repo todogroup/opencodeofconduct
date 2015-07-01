@@ -2,14 +2,19 @@
 # Hey Jekyll, please transform this file.
 ---
 
+@import "configure";
+
 article.page- h1 {
   font-size: 4em;
-}
 
-p#intro {
-  margin-left: 0;
-  font-size: 0.8em;
-  color: #777;
-  margin-bottom: 3em;
-  font-style: italic;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .version {
+    color: #333;
+    font-size: 18px;
+    font-weight: normal;
+  }
 }

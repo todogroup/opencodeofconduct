@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+</div> <!-- .container -->
+
+<div id="configure" class="unconfigured">
+  <div class="container">
+  <div>
+    <p>Through our experiences at the <a href="http://todogroup.org">TODO Group</a>, we strongly believe that a code of conduct helps set the ground rules for participation in communities and helps build a culture of respect. We hope <a href="https://github.com/todogroup/opencodeofconduct">sharing this with you</a> will enable you to easily establish a code of conduct for your respective open source community.</p>
+
+    <ol>
+      <li>
+        <h2>Configure the Code of Conduct:</h2>
+        <form>
+          <ul>
+            <li>
+              <label>What is the name of your community?</label>
+              <div><input type="text" name="community" placeholder="TODO Group" required></div>
+            </li>
+
+            <li>
+              <label>Where should abuses be reported to?</label>
+              <div><input type="email" name="contact" placeholder="abuse@todogroup.org" required></div>
+            </li>
+          </ul>
+        </form>
+      </li>
+      <li id="apply" class="show-when-configured">
+        <h2>Apply it to your community:</h2>
+
+        <p>Copy this template into the <code>README</code> or <code>CONTRIBUTING</code> file of your project.</p>
+
+        <textarea id="snippet" disabled></textarea>
+
+        <div id="code"></div>
+      </li>
+    </ol>
+
+    <p>If this template doesn't fit your needs, feel free to <a href="https://github.com/todogroup/opencodeofconduct">adapt it to your community</a>.</p>
+  </div>
+
+  <script id="markdown-template" type="text/plain">
+This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to uphold this code.
+[code-of-conduct]: [URL]
+  </script>
+
+  </div> <!-- .container -->
+</div>
+
+<div class="container">
+
+<div id="code-of-conduct">
+  {{ content }}
+</div>
+
+<script type="text/javascript" src="{{site.baseurl }}/js/configure.js"></script>

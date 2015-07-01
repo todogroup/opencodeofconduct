@@ -50,7 +50,10 @@
   <article id='article' class='page-{{page.title|downcase}}'>
     <div class="container">
       <div class="page-header">
-        <h1>{{ site.title }}</h1>
+        <h1>
+          <a href="{{ site.url }}">{{ site.title }}</a>
+          {% if page.version %}<span class="version">{{page.version}}</span>{% endif %}
+        </h1>
         <h2>{{ site.description }}</h2>
       </div>
 

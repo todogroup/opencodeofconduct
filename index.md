@@ -1,12 +1,9 @@
 ---
-layout: default
+layout: code-of-conduct
+version: v1.0
 ---
 
-<p id="intro">Through our experiences at the <a href="http://todogroup.org">TODO Group</a>, we strongly believe that a code of conduct helps set the ground rules for participation in communities and helps build a culture of respect. We hope <a href="https://github.com/todogroup/opencodeofconduct">sharing this with you</a> will enable you to easily establish a code of conduct for your respective open source community. The following is a code of conduct template. To generate your own code of conduct, change the values of COMMUNITY, CONTACT from their original values as given here, and substitute your own.</p>
-
-## Open Code of Conduct v1.0
-
-This code of conduct outlines our expectations for participants within the **[COMMUNITY]**, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored. Anyone who violates this code of conduct may be banned from the community.
+This code of conduct outlines our expectations for participants within the **[COMMUNITY]** community, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored. Anyone who violates this code of conduct may be banned from the community.
 
 Our open source community strives to:
 
@@ -46,4 +43,3 @@ include them as well. Your account of what occurred, and if you believe the inci
 After filing a report, a representative will contact you personally. If the person who is harassing you is part of the response team, they will recuse themselves from handling your incident. A representative will then review the incident, follow up with any additional questions, and make a decision as to how to respond. We will respect confidentiality requests for the purpose of protecting victims of abuse.
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately. If an individual engages in unacceptable behavior, the representative may take any action they deem appropriate, up to and including a permanent ban from our community without warning.
-
