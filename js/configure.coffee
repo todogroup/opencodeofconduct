@@ -10,8 +10,8 @@ class @Configure
     @form = @element.querySelector("form")
     @snippet = @element.querySelector("#snippet")
 
-    # Copy the snippet text on focus
-    @snippet.addEventListener "focus", @copy
+    # Select the snippet text on focus
+    @snippet.addEventListener "focus", -> @select()
     # Prevent mouseup from unselecting the text
     @snippet.addEventListener "mouseup", (e) -> e.preventDefault()
 
@@ -71,10 +71,6 @@ class @Configure
     data = {}
     data[key] = values[index] for key,index in @constructor.variables
     data
-
-  copy: (event) =>
-    event.target.select()
-    document.execCommand('copy')
 
 class Template
   constructor: (@element) ->
