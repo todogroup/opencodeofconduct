@@ -24,7 +24,10 @@ It's very hard to develop a one size fits all code of conduct for open source co
 
 * Square: https://corner.squareup.com/codeofconduct.html
 * Twitter: https://engineering.twitter.com/opensource/code-of-conduct
-* Eclipse Foundation: TODO
+* GitHub: TODO
+* Box: TODO
+* Facebook: TODO
+* Yahoo: TODO
 
 #### Can I apply this code of conduct for conferences or events?
 
