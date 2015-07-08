@@ -25,7 +25,7 @@ It's very hard to develop a one size fits all code of conduct for open source co
 * Square: https://corner.squareup.com/codeofconduct.html
 * Twitter: https://engineering.twitter.com/opensource/code-of-conduct
 * GitHub: TODO
-* Box: TODO
+* Box: http://opensource.box.com/code-of-conduct
 * Facebook: TODO
 * Yahoo: TODO
 
