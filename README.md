@@ -20,7 +20,7 @@ A very liberal [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 
 It's very hard to develop a one size fits all code of conduct for open source communities, so we took template approach inspired by the [BSD license](http://opensource.org/licenses/BSD-3-Clause). This allows organizations to work off the core code of conduct while customizing it to their needs.
 
-#### What companies or commnities support or use the Open Code of Conduct?
+#### What companies or communities support or use the Open Code of Conduct?
 
 * Twitter: https://engineering.twitter.com/opensource/code-of-conduct
 * Box: http://opensource.box.com/code-of-conduct
