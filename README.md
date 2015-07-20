@@ -24,9 +24,9 @@ It's very hard to develop a one size fits all code of conduct for open source co
 
 * Twitter: https://engineering.twitter.com/opensource/code-of-conduct
 * Box: http://opensource.box.com/code-of-conduct
+* Yahoo: http://yahoo.github.io/codeofconduct
 * GitHub: TODO
 * Facebook: TODO
-* Yahoo: TODO
 
 #### Can I apply this code of conduct for conferences or events?
 
