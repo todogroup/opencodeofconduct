@@ -43,3 +43,15 @@ include them as well. Your account of what occurred, and if you believe the inci
 After filing a report, a representative will contact you personally. If the person who is harassing you is part of the response team, they will recuse themselves from handling your incident. A representative will then review the incident, follow up with any additional questions, and make a decision as to how to respond. We will respect confidentiality requests for the purpose of protecting victims of abuse.
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately. If an individual engages in unacceptable behavior, the representative may take any action they deem appropriate, up to and including a permanent ban from our community without warning.
+
+### Attribution & Acknowledgements
+
+We all stand on the shoulders of giants across many open source communities. 
+
+We'd like to thank the communities and projects that established code of conducts and diversity statements as our inspiration:
+* Django: https://www.djangoproject.com/conduct/reporting/
+* Python: https://www.python.org/community/diversity/
+* Ubuntu: http://www.ubuntu.com/about/about-ubuntu/conduct
+* Contributor Covenant: http://contributor-covenant.org/
+* Geek Feminism: http://geekfeminism.org/about/code-of-conduct/
+* Citizen Code of Conduct: http://citizencodeofconduct.org/
