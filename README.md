@@ -22,10 +22,9 @@ It's very hard to develop a one size fits all code of conduct for open source co
 
 #### What companies support or use the open code of conducts?
 
-* Square: https://corner.squareup.com/codeofconduct.html
 * Twitter: https://engineering.twitter.com/opensource/code-of-conduct
-* GitHub: TODO
 * Box: http://opensource.box.com/code-of-conduct
+* GitHub: TODO
 * Facebook: TODO
 * Yahoo: TODO
 
