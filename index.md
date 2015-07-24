@@ -16,29 +16,28 @@ Our open source community strives to:
 
 ## Definitions
 
-Harassment includes:
+Harassment includes, but is not limited to:
 
-- Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, age, or religion
-- Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
+- Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, age, regional discrimination, political or religious affiliation
+- Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment
 - Deliberate misgendering or use of ‘dead’ or rejected names
-- Gratuitous or off-topic sexual images or behaviour  in spaces where they’re not appropriate
-- Physical contact and simulated physical contact (eg, textual descriptions like “*hug*” or “*backrub*”) without consent or after a request to stop.
-- Threats of violence
+- Physical contact and simulated physical contact (eg, textual descriptions like “*hug*” or “*backrub*”) without consent or after a request to stop
+- Threats of violence, both physical and psychological
 - Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm
 - Deliberate intimidation
 - Stalking or following
 - Harassing photography or recording, including logging online activity for harassment purposes
 - Sustained disruption of discussion
-- Unwelcome sexual attention
+- Unwelcome sexual attention, including gratuitous or off-topic sexual images or behaviour
 - Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
 - Continued one-on-one communication after requests to cease
-- Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect other [COMMUNITY] members or other vulnerable people from intentional abuse
+- Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect others from intentional abuse
 - Publication of non-harassing private communication
 
-Our open source community prioritizes marginalized people’s safety over privileged people’s comfort. The **[COMMUNITY]** community leaders will not act on complaints regarding:
+Our open source community prioritizes marginalized people’s safety over privileged people’s comfort. We will not act on complaints regarding:
 
-- ‘Reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’ (because these things don’t exist)
-- Reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.”
+- ‘Reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’
+- Reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.
 - Refusal to explain or debate social justice concepts
 - Communicating in a ‘tone’ you don’t find congenial
 - Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
