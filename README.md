@@ -20,7 +20,7 @@ A very liberal [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 
 It's very hard to develop a one size fits all code of conduct for open source communities, so we took template approach inspired by the [BSD license](http://opensource.org/licenses/BSD-3-Clause). This allows organizations to work off the core code of conduct while customizing it to their needs.
 
-#### What companies or commnities support or use the Open Code of Conduct?
+#### What companies or communities support or use the Open Code of Conduct?
 
 * Twitter: https://engineering.twitter.com/opensource/code-of-conduct
 * Box: http://opensource.box.com/code-of-conduct
@@ -54,12 +54,11 @@ See this XKCD for our feelings on this matter: https://xkcd.com/1357/
 
 ## Thanks
 
-We all stand on the shoulders of giants across many open source communities. 
+We all stand on the shoulders of giants across many open source communities. We'd like to thank the [communities and projects that established code of conducts and diversity statements](http://todogroup.org/opencodeofconduct/#attribution--acknowledgements) as our inspiration:
 
-We'd like to thank the communities and projects that established code of conducts and diversity statements as our inspiration:
 * Django: https://www.djangoproject.com/conduct/reporting/
 * Python: https://www.python.org/community/diversity/
 * Ubuntu: http://www.ubuntu.com/about/about-ubuntu/conduct
 * Contributor Covenant: http://contributor-covenant.org/
 * Geek Feminism: http://geekfeminism.org/about/code-of-conduct/
-
+* Citizen Code of Conduct: http://citizencodeofconduct.org/ 
