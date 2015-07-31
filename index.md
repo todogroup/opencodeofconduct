@@ -37,7 +37,7 @@ Harassment includes, but is not limited to:
 Our open source community prioritizes marginalized people’s safety over privileged people’s comfort. We will not act on complaints regarding:
 
 - ‘Reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’
-- Reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.
+- Reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you”
 - Refusal to explain or debate social justice concepts
 - Communicating in a ‘tone’ you don’t find congenial
 - Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
