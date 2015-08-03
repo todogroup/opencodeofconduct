@@ -2,7 +2,7 @@
 
 An easy to reuse open source code of conduct **template** for communities.
 
-Developed by the [@TODOGroup](https://twitter.com/todogroup) to promote code of conducts for open source communities.
+Developed by the [@TODOGroup](https://twitter.com/todogroup) to promote code of conducts for open source communities. By participating in this project, you are expected to honor this [code of conduct](http://todogroup.org/opencodeofconduct/#Open+Code+of+Conduct/abuse@todogroup.org).
 
 ## FAQ
 
