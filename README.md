@@ -56,7 +56,7 @@ See this XKCD for our feelings on this matter: https://xkcd.com/1357/
 
 We all stand on the shoulders of giants across many open source communities. We'd like to thank the [communities and projects that established code of conducts and diversity statements](http://todogroup.org/opencodeofconduct/#attribution--acknowledgements) as our inspiration:
 
-* Django: https://www.djangoproject.com/conduct/reporting/
+* Django: https://www.djangoproject.com/conduct/
 * Python: https://www.python.org/community/diversity/
 * Ubuntu: http://www.ubuntu.com/about/about-ubuntu/conduct
 * Contributor Covenant: http://contributor-covenant.org/
