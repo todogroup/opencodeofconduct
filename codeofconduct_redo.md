@@ -6,6 +6,7 @@ version: v2.0
 ###Purpose:
 _TL;DR
 Having a Code of Conduct is a good way to encourage good behavior and discourage bad behavior in our open source community.
+
 _Verbose_
 This code of conduct outlines our expectations for participants within the [COMMUNITY] community, as well as steps to reporting unacceptable behavior. Our goal is to make explicit what we expect from participants in this community as well as its leaders. 
 * We explicitly forbid harassment and abusive speech within this community. 
@@ -16,12 +17,14 @@ Harassment, verbal abuse, and fighting harms the community. This Code of Conduct
 ###Statement about Diversity:
 _TL;DR_
 We seek to encourage participation from a large group of people who bring different perspectives to the project.
+
 _Verbose_
 Open Source projects thrive on diverse perspectives. If one smart developer could code the whole project, we’d just hire that developer to write all the code. In reality, complex projects require a diversity of perspectives; which you only get when you invite dissimilar people to participate in the group. When you bring people from different backgrounds together on complex projects tensions arise, sometimes leading to verbal abuse and even threats of violence. Establishing a Code of Conduct is one way to signify that this project values the perspectives of many. We are committed to ensuring participants have an effective method of escalating reports of misconduct so that we can maintain a productive community for all participants.
 
 ###Expected Behaviors:
 _TL;DR_
 We expect participants to communicate professionally and thoughtfully. We call out common situations where this is especially important. For example: when people disagree, when people join a project midstream, when people are unclear in their communication style, and when you feel the need to leave the community.
+
 _Verbose_
 We expect participants in this community to conduct themselves professionally. Since our primary mode of communication is text on an online forum (e.g. issue, pull request, comment, email, or chat text) devoid of vocal tone, gestures, or other context that is often vital to understanding, it is especially important that you convey these attitudes in text. This includes the following behaviors:
 
@@ -38,6 +41,7 @@ We expect participants in this community to conduct themselves professionally. S
 ###Unacceptable Behaviors:
 _TL;DR_
 We call out examples of behaviors which render members to lose their good standing in the community. These include insulting people on the basis of their protected class status, threatening words, or unwanted sexual attention. Rather than fighting back, please report every incident directly to the project leader.
+
 _Verbose_
 Participants in this open source community remain in good standing when they do not conduct themselves in a manner that violates this Code of Conduct. Misconduct includes:
 
@@ -52,6 +56,7 @@ We cannot list all forms of harassment in an exhaustive manner, nor do we seek t
 ###Reporting Issues:
 _TL;DR_
 Please follow the reporting process so that the response team can take action on your report. The response team will handle your issue with discretion. We respect your confidentiality for the purpose of protecting victims of abuse.
+
 _Verbose_
 If you experience or witness misconduct, or have any other concerns about the conduct of members of this project, please report it by contacting us via [CONTACT]. All reports will be handled with discretion. 
 
@@ -66,6 +71,7 @@ After filing a report, a representative will contact you personally, review the 
 ###Consequences & Scope:
 _TL;DR_
 This project will assign a respondent role responsible to accept and address misconduct issues. The respondent will apply a measured response to remove harassers and harassment from this project. This code does not replace the ToS or AUP of the websites used to support this project. We acknowledge that many participants are also guided by terms of employment which may govern their online expressions.
+
 _Verbose_
 Each project that implements this code of conduct agrees to assign the role of “response team” to at least one member of the project who has admin rights on the project and legal rights on the project copyright. The response team is empowered restrict access or privileges to the project if needed. Since this project is governed by an open source license, any participant may fork the code at any time under the terms of the project license. 
 
@@ -77,6 +83,7 @@ This code does not replace the terms of service or acceptable use policies that 
 ###Attribution & Acknowledgements:
 _TL;DR_
 We thank those who created codes of conduct and diversity statements that served as our inspiration. Whereas we created our own blend, we were very inspired by what we learned reviewing your work. We publish our version with the invitation to others to use, modify, and adapt this text to their needs.
+
 _Verbose_
 We created this code based on input from many existing codes as well as input from many other people. We expect that others will use what we created to inspire their efforts too. We call our the following codes as being those that had the most significant impact on our process.
 * Django (add links)
