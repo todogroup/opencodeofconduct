@@ -3,7 +3,7 @@ layout: code-of-conduct
 version: v2.0
 ---
 
-*  **Purpose:**
+###Purpose:
 _TL;DR
 Having a Code of Conduct is a good way to encourage good behavior and discourage bad behavior in our open source community.
 _Verbose_
@@ -13,13 +13,13 @@ This code of conduct outlines our expectations for participants within the [COMM
 * We urge participants to refrain from using the community discussion forums to play out a fight. 
 Harassment, verbal abuse, and fighting harms the community. This Code of Conduct articulates a set of behaviors that support a healthier approach to conflict and interaction.
 
-* **Statement about Diversity:**
+###Statement about Diversity:
 _TL;DR_
 We seek to encourage participation from a large group of people who bring different perspectives to the project.
 _Verbose_
 Open Source projects thrive on diverse perspectives. If one smart developer could code the whole project, we’d just hire that developer to write all the code. In reality, complex projects require a diversity of perspectives; which you only get when you invite dissimilar people to participate in the group. When you bring people from different backgrounds together on complex projects tensions arise, sometimes leading to verbal abuse and even threats of violence. Establishing a Code of Conduct is one way to signify that this project values the perspectives of many. We are committed to ensuring participants have an effective method of escalating reports of misconduct so that we can maintain a productive community for all participants.
 
-* **Expected Behaviors:**
+###Expected Behaviors:
 _TL;DR_
 We expect participants to communicate professionally and thoughtfully. We call out common situations where this is especially important. For example: when people disagree, when people join a project midstream, when people are unclear in their communication style, and when you feel the need to leave the community.
 _Verbose_
@@ -35,7 +35,7 @@ We expect participants in this community to conduct themselves professionally. S
 * Exit with class. There may come a time where you stop believing in the project direction, or get frustrated with the project leaders. You are always free to fork the code and create a competitive project. Open Source explicitly accommodates this. It does not have to be dramatic or rageful. Sometimes you just walk away, and it’s OK.
 
 
-* **Unacceptable Behaviors:**
+###Unacceptable Behaviors:
 _TL;DR_
 We call out examples of behaviors which render members to lose their good standing in the community. These include insulting people on the basis of their protected class status, threatening words, or unwanted sexual attention. Rather than fighting back, please report every incident directly to the project leader.
 _Verbose_
@@ -49,7 +49,7 @@ Insulting remarks about a person’s lifestyle practices.
 
 We cannot list all forms of harassment in an exhaustive manner, nor do we seek to declare some forms of harassment as benign or not worthy of action. Rather, if a project member feels harassed we ask they report the incident. The incident will be recorded and addressed. Furthermore we insist that the victim of this harassment not address the issue in the forum in public, as this tends to intensify the problem for the parties in question and for the community as a whole.
 
-* **Reporting Issues:**
+###Reporting Issues:
 _TL;DR_
 Please follow the reporting process so that the response team can take action on your report. The response team will handle your issue with discretion. We respect your confidentiality for the purpose of protecting victims of abuse.
 _Verbose_
@@ -63,7 +63,7 @@ We ask that your report include:
 
 After filing a report, a representative will contact you personally, review the incident, follow up with any additional questions, and make a decision as to how to respond. If the person who is harassing you is part of the response team, they will recuse themselves from handling your incident. If the complaint originates from a member of the response team, it will be handled by a different member of the response team. We respect the confidentiality of all requests for the purpose of protecting victims of abuse.
 
-* **Consequences & Scope:**
+###Consequences & Scope:
 _TL;DR_
 This project will assign a respondent role responsible to accept and address misconduct issues. The respondent will apply a measured response to remove harassers and harassment from this project. This code does not replace the ToS or AUP of the websites used to support this project. We acknowledge that many participants are also guided by terms of employment which may govern their online expressions.
 _Verbose_
@@ -74,7 +74,7 @@ The mission of the response team is to maintain the productive collaboration tha
 This code does not replace the terms of service or acceptable use policies that may apply to the websites used to support this community. Nor does this code apply to communications or actions that take place outside of the context of this community. Many of the participants in this project are subject to codes of conduct that apply to them based on their terms of employment. This code is a simple social-contract that informs participants of our social expectations.
 
 
-* **Attribution & Acknowledgements:**
+###Attribution & Acknowledgements:
 _TL;DR_
 We thank those who created codes of conduct and diversity statements that served as our inspiration. Whereas we created our own blend, we were very inspired by what we learned reviewing your work. We publish our version with the invitation to others to use, modify, and adapt this text to their needs.
 _Verbose_
