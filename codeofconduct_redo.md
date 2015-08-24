@@ -23,4 +23,4 @@ We thank those who created codes of conduct and diversity statements that served
 
 This text is shared under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license. 
 
-You may consider the following [suggested changes](./codeofconduct_redo.md) to this code.
+You may consider the following [suggested changes](./code_improvement.md) to this code.
